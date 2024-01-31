@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            background-image: url(abs.jpg);
+        }
+
+        .btn {
+            background-color: rgb(20, 18, 18);
+            color: white;
+            float: right;
+            border-radius: 10px;
+            border: 1px solid white;
+            margin: 10px;
+            padding: 10px;
+            font-size: 15px;
+            cursor: pointer;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+        .btn:hover{
+            color: burlywood;
+        }
+
+        .container {
+            border: 2px solid white;
+            margin-top: 100px;
+            margin-left: 50px;
+            width: 550px;
+            height: 350px;
+            border-radius: 14px;
+        }
+
+        .head {
+            overflow: auto;
+        }
+
+        .head2 {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 20px;
+        }
+
+        #submit {
+            background-color: black;
+            color: white;
+            margin-left: 180px;
+            padding-left: 75px;
+            padding-right:75px;
+           font-size: 15px;
+            text-align: center;
+            border-radius: 6px;
+            border: 2px solid white;
+        }
+
+        .text1 {
+            text-align: center;
+            margin-left:  180px;
+            margin-bottom: 20px;
+            font-size: 15px;
+            border-radius: 6px;
+        }
+
+        .navbar li {
+            list-style: none;
+            float: left;
+            margin: 20px;
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+        }
+
+        .navbar li a:hover {
+            color: rgb(219, 181, 181);
+        }
+
+        .navbar ul {
+            margin-left: 400px;
+            margin-top: 30px;
+        }
+        .img{
+            width: 50px;
+            height: 50px;
+            float: left;
+            margin-top: 10px;
+            margin-left: 20px;
+            
+        }
+        .head4{
+        margin-top: 10px;
+        margin-left: 0px;
+        margin-right: 500px;
+         float: left;
+        }  
+        .navbar2 input{
+            float: inline-start;
+        }
+    </style>
+</head>
+
+<body>
+    <DIV>
+        <header class="head">
+            <nav class="navbar">
+                <img src="logo.png" alt="error to loading" class="img">
+                  
+                <ul>
+                    <li>
+                        <a href="Food delivery services in india.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#">Fitness Calculator</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact Us</a>
+                    </li>
+                </ul>
+                <button class="btn">Call us now</button>
+                <button class="btn">Email us</button>
+            </nav>
+            <h4 class="head4">Tanveer Fitness</h4>
+        </header>
+    </DIV>
+    <div class="container">
+        <form action="backend.php" class="form1">
+            <h3 class="head2">Join the best gym of mumbai now</h3>
+            <input type="text" name="text" class="text1" placeholder="Enter your Name"><br>
+            <input type="text" name="text" class="text1" placeholder="Enter your Age"><br>
+            <input type="text" name="text" class="text1" placeholder="Enter your Gender"><br>
+            <input type="text" name="text" class="text1" placeholder="Enter your Locality"><br>
+            <button id="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
